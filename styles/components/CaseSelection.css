@@ -1,0 +1,34 @@
+.case-selection {
+  text-align: center;
+  padding: 20px;
+}
+
+.case-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.case-options div {
+  cursor: pointer;
+}
+
+.case-options div.selected {
+  border: 3px solid #4caf50; 
+  padding: 5px;
+}
+
+.case-image {
+  width: 200px;
+  height: auto;
+}
+
+.case-details p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}

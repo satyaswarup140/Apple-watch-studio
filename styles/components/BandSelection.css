@@ -1,0 +1,29 @@
+.band-selection {
+  text-align: center;
+}
+
+.band-options {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.band-options div {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.band-options div.selected {
+  border: 3px solid #4caf50; /* Highlight selected band */
+  padding: 5px;
+}
+
+.band-image {
+  width: 200px;
+  height: auto;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
